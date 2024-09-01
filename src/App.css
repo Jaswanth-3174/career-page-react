@@ -1,0 +1,116 @@
+.introduction {
+  background-color: #f8f9fa;
+}
+
+.job-openings .card {
+  transition: transform 0.2s;
+}
+
+.job-openings .card:hover {
+  transform: scale(1.05);
+}
+
+.clients img {
+  transition: transform 0.2s;
+}
+
+.clients img:hover {
+  transform: scale(1.1);
+}
+
+.testimonial-quote {
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+.testimonial-author {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1em;
+  color: #555;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: transparent; /* Remove the background circle */
+  width: 3rem;
+  height: 3rem;
+}
+
+.carousel-control-prev-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns%3D%27http://www.w3.org/2000/svg%27 fill%3D%27%23000%27 viewBox%3D%270 0 8 8%27%3E%3Cpath d%3D%27M4.03 0l-4 4 4 4 .94-.94-3.03-3.03 3.03-3.03-.94-.94z%27/%3E%3C/svg%3E');
+}
+
+.carousel-control-next-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns%3D%27http://www.w3.org/2000/svg%27 fill%3D%27%23000%27 viewBox%3D%270 0 8 8%27%3E%3Cpath d%3D%27M4 0l-.94.94 3.03 3.03-3.03 3.03.94.94 4-4-4-4z%27/%3E%3C/svg%3E');
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.carousel-item {
+  padding: 0 15%;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+}
+
+footer h5 {
+  margin-bottom: 1rem;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+footer ul li {
+  margin-bottom: 0.5rem;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+footer form .form-group {
+  margin-bottom: 1rem;
+}
+
+footer form .btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+footer form .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+footer .text-center {
+  margin-top: 1rem;
+}
+
+.fab {
+  margin-right: 0.5rem;
+}
+
+/* Custom styles for carousel arrows */
+.carousel-control-prev, .carousel-control-next {
+  filter: invert(0) !important; /* Ensure the arrows are not inverted to white */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: black; /* Black background for the arrows */
+  border-radius: 50%; /* Optional: makes the arrows circular */
+}
+
+.carousel-control-prev-icon::before, .carousel-control-next-icon::before {
+  color: white; /* White arrow icon */
+}
